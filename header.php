@@ -8,10 +8,12 @@
     <?php wp_head() ?>
 </head>
 
-<body>
+<body <?php body_class() ?>>
     <nav>
         <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logoKooks.png" class="logoKooks" alt="logo Kooks"></div>
         <?php wp_nav_menu([
             'theme_location' => 'header', 
             'container' => false]) ?>
+        <div class="divBurger open"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/burger-icon.png" alt="burger" class="burger"></div>
+        <div class="divBurger close"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/burger-icon.png" alt="burger" class="burger"></div>
     </nav>

@@ -1,0 +1,124 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+h1 {
+    color: #EA690B;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.wp-post-image {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.articles {
+    padding-bottom: 140px;
+}
+
+.article {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    position: relative;
+}
+
+.tache {
+    position: absolute;
+    display: block;
+    width: 200px;
+    z-index: -1;
+}
+
+.articleText {
+    flex-basis: 40%;
+}
+
+.article:nth-of-type(1) .tache {
+    right: 140px;
+    top: -40px;
+}
+
+.article:nth-of-type(2) .tache {
+    transform: rotate(180deg);
+    left: 100px;
+    top: 120px;
+}
+
+.article:nth-of-type(3) .tache {
+    transform: rotate(-90deg);
+    right: 300px;
+    top: -40px;
+}
+
+.article:nth-of-type(4) .tache {
+    transform: rotate(90deg);
+    left: 260px;
+    top: 120px;
+}
+
+.article:nth-of-type(odd) .articleText {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.article:nth-of-type(even) .articleText {
+    margin-top: 120px;
+    text-align: right;
+    margin-left: 60px;
+}
+
+.articleText p {
+    margin-top: 10px;
+}
+
+.article:nth-of-type(even) {
+    background-image: url("../images/articleImgRight.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-position-x: calc(100% + 5px);
+}
+
+.article:nth-of-type(odd) {
+    background-image: url("../images/articleImgLeft.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-position-x: -25px;
+}
+
+.article:nth-of-type(even) .imgArticle {
+    order: -1;
+    margin-left: 60px;
+}
+
+.article:nth-of-type(odd) .imgArticle {
+    margin-right: -120px;
+}
+
+.article a {
+    color: #EA690B;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.article p {
+    color: #B4986A;
+}
+
+@media (max-width: 1000px) {
+    /* tablet */
+
+}
+
+@media (max-width: 500px) {
+    /* phone */
+
+}

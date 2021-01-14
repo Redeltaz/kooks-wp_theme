@@ -18,6 +18,6 @@
             <div><a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter.png" class="twitter" alt="twitter"></a></div>
         </div>
     </footer>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/navbar.js"></script>
     </body>
-
-    </html>
+</html>

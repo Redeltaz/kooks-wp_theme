@@ -2,9 +2,6 @@ footer{
     background-color: #B4986A;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
 }
 
 .leftFooter{

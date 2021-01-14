@@ -8,7 +8,13 @@ nav ul{
     margin-top: 30px;
 }
 
-nav img{
+.divBurger{
+    display: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.logoKooks{
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -28,4 +34,39 @@ nav a{
 nav a:hover{
     color: #EA690B;
     text-shadow: 1px 0px 0px #EA690B;
+}
+
+.burger{
+    display: block;
+    width: 50px;
+}
+
+@media (max-width: 1000px) {
+    /* tablet */
+
+    nav ul{
+        height: 0px;
+        transition: 0.5s;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .navItem{
+        display: none;
+        margin: 10px 0;
+    }
+
+    .close{
+        display: none;
+    }
+
+    .open{
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    /* phone */
+
 }
