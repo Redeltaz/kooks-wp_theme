@@ -1,0 +1,75 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 60px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #EA690B;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+
+.paris{
+    color: #EA690B;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.carte{
+    display: block;
+    width: 80%;
+    margin: -180px auto 0 auto;
+}
+
+.where{
+    margin-bottom: 50px;
+}
+
+.adresseContent h4{
+    color: #EA690B;
+}
+
+.adresseContent p {
+    color: #B4986A;
+}
+
+.adresseContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adresseContent{
+    margin-right: 160px;
+    margin-bottom: 30px;
+}
+
+.contact{
+    color: #B4986A;
+    margin-bottom: 50px;
+    padding-right: 450px;
+    position: relative;
+}
+
+.contact h2{
+    color: #EA690B;
+    margin-bottom: 50px;
+}
+
+.message textarea{
+    border-radius: 20px;
+    border: 1px solid #B4986A;
+    resize: none;
+}
+
+.cookieGros{
+    position: absolute;
+    z-index: -1;
+    top: 250px;
+    right: -350px;
+}

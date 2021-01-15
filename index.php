@@ -15,6 +15,7 @@
                     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tache.png" class="tache" alt="tache"></div>
                 </li>
             <?php endwhile ?>
+            <?php the_posts_pagination(); ?>
         </ul>
     <?php else : ?>
         <h1>Aucun article</h1>

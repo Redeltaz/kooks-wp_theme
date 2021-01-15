@@ -9,7 +9,7 @@
 </head>
 
 <body <?php body_class() ?>>
-    <nav>
+    <nav class="nav">
         <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logoKooks.png" class="logoKooks" alt="logo Kooks"></div>
         <?php wp_nav_menu([
             'theme_location' => 'header', 

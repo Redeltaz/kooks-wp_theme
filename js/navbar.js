@@ -2,7 +2,7 @@ let menu = document.querySelector("#menu-header")
 let burgerIcon = document.querySelector('.divBurger')
 let burgerClose = document.getElementsByClassName("close")[0]
 let burgerOpen = document.getElementsByClassName("open")[0]
-let choice = document.querySelectorAll(".navItem")
+let choice = document.querySelectorAll(".nav .navItem")
 
 burgerOpen.addEventListener("click", () => {
     menu.style.height = "200px"
