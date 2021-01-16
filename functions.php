@@ -1,4 +1,5 @@
 <?php
+
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
@@ -32,8 +33,16 @@ function style_theme()
         wp_enqueue_style('singleArticle', get_template_directory_uri() . '/css/singleArticle.css', false, '1.1', 'all');
     }
 
+    if(is_front_page()){
+        wp_enqueue_style('frontPage', get_template_directory_uri() . '/css/frontPage.css', false, '1.1', 'all');
+    }
+
     if (is_page(37)) {
         wp_enqueue_style('contact', get_template_directory_uri() . '/css/contact.css', false, '1.1', 'all');
+    }
+
+    if(is_page(34)) {
+        wp_enqueue_style('who', get_template_directory_uri() . '/css/qui-sommes-nous.css', false, '1.1', 'all');
     }
 }
 

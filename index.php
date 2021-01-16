@@ -9,7 +9,7 @@
                     <div class="articleText">
                         <h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
                         <p><?php the_date() ?></p>
-                        <p><?php the_content() ?></p>
+                        <?php the_content() ?>
                     </div>
                     <div class="imgArticle"><?php the_post_thumbnail() ?></div>
                     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tache.png" class="tache" alt="tache"></div>

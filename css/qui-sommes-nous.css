@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+}
+
+
+
+#qui-somme-nous > h1{
+    padding-left: 100px;
+    padding-top: 60px;
+    font-family: Baskerville bold;
+    color: #EC6707;
+    font-size: 40px;
+}
+
+#cookieq{
+    float: right;
+    padding-top: 10px;
+    width: 300px;
+    padding-right: 80px;
+}
+
+#qui-somme-nous > p{
+    padding-left: 90px;
+    padding-top: 15px;
+    font-family: Helvetica;
+    color: #B4986A;
+    font-size: 20px;
+}
+
+#qui-somme-nous > h2{
+    float: right;
+    
+    
+    
+}
+#histoire{
+    font-family: Baskerville bold;
+    color: #EC6707;
+    font-size: 40px;
+}
+
+#speculos{
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+#marron{
+
+    padding-left: 200px;
+}
+
+#coco{
+    float:right;
+    padding-right: 100px;
+    vertical-align:baseline;
+    padding-top: 0px;
+
+
+}
+#coco > a {
+    font-family: Helvetica;
+    color: #B4986A;
+    font-size: 20px;
+}
+#dough{
+    background-image: url("../images/fond2.png");
+    background-size: 100% 80%;
+    background-repeat:no-repeat ;
+    color: white;
+}
+
+#titre{
+    font-family: Baskerville bold;
+    padding-top: 300px;
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+
+section{
+   text-align: center;
+    padding-top: 100px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+article > img {
+
+    width: 120px;
+}
+
+@media(max-width: 767px) {
+    body
+
+    {
+    
+                width :100% ;
+    
+                padding :0px ;
+    
+    }
+
+    #qui-somme-nous > h1{
+        padding-left: 10px;
+        padding-top: 60px;
+        font-family: Baskerville bold;
+        color: #EC6707;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #qui-somme-nous > p{
+        padding-left: 20px;
+        padding-top: 15px;
+        font-family: Helvetica;
+        color: #B4986A;
+        font-size: 18px;
+    }
+
+    #cookieq{
+        float: center;
+        padding-top: 10px;
+        width: 300px;
+        padding-right: 40px;
+    }
+    #speculos{
+        padding-top: 100px;
+        padding-left: 40px;
+    }
+
+#marron{
+
+    padding-left: 20px;
+
+}
+#histoire{
+    padding-left: 70px;
+    font-family: Baskerville bold;
+    color:#EC6707;
+    font-size: 20px;
+}
+
+#coco > a {
+
+    font-family: Helvetica;
+    color: #B4986A;
+    font-size: 15px;
+    float: left;
+}
+#titre{
+    font-family: Baskerville bold;
+    padding-top: 500px;
+    padding-left: 100px;
+    font-size: 30px;
+    text-align: left;
+    color: #EC6707;
+}
+
+section{
+    text-align: center;
+     padding-top: 0px;
+     padding-left: 20px;
+     display: inline-block;
+     justify-content: space-around;
+     font-family: Helvetica;
+     font-size: 18px;
+     background-color: #EC6707;
+        width: 100%;
+    }
+ #coco{
+    float:center;
+    padding-right: 0px;
+    padding-left: 10px;
+    
+    padding-top: 0px;
+
+}
+#dough{
+    background-image: none;
+    
+    color: white;
+}
+}
